@@ -15,7 +15,7 @@ class CashRegister
       @title << title
     elsif quantity > 1 
       i = 1
-      while i < quantity do 
+      while i < quantity + 1 do 
         @title << title 
         i += 1
       end
