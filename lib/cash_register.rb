@@ -20,7 +20,7 @@ class CashRegister
 
     @total = @total - (@discount * total)
     @total = @total.to_i
-
+    return "Success"
     end
   
 end
