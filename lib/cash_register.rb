@@ -12,7 +12,7 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
     @title << title
-    i = 1 
+    i = 0 
     if i < quantity
       @title << title 
       i += 1 
