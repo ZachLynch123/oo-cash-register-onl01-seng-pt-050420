@@ -45,6 +45,7 @@ class CashRegister
         binding.pry
 
     @total = @total - @old_total
+    @old_total
   end
   
   
