@@ -14,7 +14,7 @@ class CashRegister
     i = 1
     if quantity == 1 
       @title << title
-    elsif i < quantity + 1
+    elsif quantity > 1 
       @title << title 
       i += 1 
     end
